@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import {
     SafeAreaView,
     View,
@@ -7,7 +7,8 @@ import {
     Image,
     ScrollView,
     FlatList,
-    StatusBar
+    StatusBar,
+    LogBox
 } from 'react-native';
 
 import { COLORS, FONTS, SIZES, icons, images } from 'constants';
@@ -26,7 +27,9 @@ const Home = ({ navigation }) => {
         name: 'Username',
         point: 200
     }
-
+    useEffect(() => {
+        LogBox.ignoreLogs(['VirtualizedLists should never be nested']);
+    }, [])
     const bookOtherWordsForHome = {
         id: 1,
         bookName: "Other Words For Home",
