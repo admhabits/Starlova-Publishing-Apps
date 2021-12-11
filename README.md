@@ -10,4 +10,4 @@ Be sure to subscribe to our YouTube channel for more videos like this!
 
 | Code | Project | Preview | Inspiration | No. of Screens |
 | ------ | ------ | ------ | ------ | ------ |
-|
+| V.1.0 | 001 | ##Watch it on YouTube](https://youtu.be/) | youtube | 3
