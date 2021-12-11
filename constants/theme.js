@@ -43,6 +43,7 @@ export const SIZES = {
     body2: 20,
     body3: 16,
     body4: 14,
+    cat: 30,
 
     // app dimensions
     width,
@@ -50,15 +51,16 @@ export const SIZES = {
 };
 
 export const FONTS = {
-    largeTitle: { fontFamily: "Roboto-regular", fontSize: SIZES.largeTitle, lineHeight: 55 },
-    h1: { fontFamily: "Roboto-Black", fontSize: SIZES.h1, lineHeight: 36 },
+    largeTitle: { fontFamily: "Roboto-Bold", fontSize: SIZES.largeTitle, lineHeight: 55 },
+    h1: { fontFamily: "Roboto-Bold", fontSize: SIZES.h1, lineHeight: 36 },
     h2: { fontFamily: "Roboto-Bold", fontSize: SIZES.h2, lineHeight: 30 },
-    h3: { fontFamily: "Roboto-Bold", fontSize: SIZES.h3, lineHeight: 22 },
+    h3: { fontFamily: "Roboto-Medium", fontSize: SIZES.h3, lineHeight: 22 },
     h4: { fontFamily: "Roboto-Bold", fontSize: SIZES.h4, lineHeight: 22 },
-    body1: { fontFamily: "Roboto-Regular", fontSize: SIZES.body1, lineHeight: 36 },
+    body1: { fontFamily: "Roboto-Bold", fontSize: SIZES.body1, lineHeight: 36 },
     body2: { fontFamily: "Roboto-Regular", fontSize: SIZES.body2, lineHeight: 30 },
-    body3: { fontFamily: "Roboto-Regular", fontSize: SIZES.body3, lineHeight: 22 },
-    body4: { fontFamily: "Roboto-Regular", fontSize: SIZES.body4, lineHeight: 22 },
+    body3: { fontFamily: "Roboto-Bold", fontSize: SIZES.body3, lineHeight: 22 },
+    body4: { fontFamily: "Roboto-Medium", fontSize: SIZES.body4, lineHeight: 22 },
+    heading: { fontFamily: "Landasans-Medium", fontSize: SIZES.cat, lineHeight: 30 },
 };
 
 const appTheme = { COLORS, SIZES, FONTS };

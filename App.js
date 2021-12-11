@@ -23,6 +23,16 @@ const App = () => {
         "Roboto-Black": require('./assets/fonts/Roboto-Black.ttf'),
         "Roboto-Bold": require('./assets/fonts/Roboto-Bold.ttf'),
         "Roboto-Regular": require('./assets/fonts/Roboto-Regular.ttf'),
+        "Roboto-Light": require('./assets/fonts/Roboto-Light.ttf'),
+        "Roboto-Thin": require('./assets/fonts/Roboto-Thin.ttf'),
+        "Roboto-Medium": require('./assets/fonts/Roboto-Medium.ttf'),
+        "Roboto-Italic": require('./assets/fonts/Roboto-Italic.ttf'),
+        "Geraldine": require('./assets/fonts/Geraldine.ttf'),
+        "American": require('./assets/fonts/AmericanCaptain.otf'),
+        "Typo-Graphica": require('./assets/fonts/Typographica.ttf'),
+        "Goldleaf": require('./assets/fonts/goldleaf.ttf'),
+        "Landasans-Medium": require('./assets/fonts/LandasansMedium.otf'),
+        "Landasans-Ultra": require('./assets/fonts/LandasansUltraLight.otf'),
     })
 
     if (!loaded) {

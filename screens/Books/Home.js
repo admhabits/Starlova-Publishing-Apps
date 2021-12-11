@@ -24,7 +24,7 @@ const LineDivider = () => {
 const Home = ({ navigation }) => {
 
     const profileData = {
-        name: 'Username',
+        name: '@alamhafidz61',
         point: 200
     }
     useEffect(() => {
@@ -165,7 +165,7 @@ const Home = ({ navigation }) => {
                             />
                         </View>
 
-                        <Text style={{ marginLeft: SIZES.base, color: COLORS.white, ...FONTS.body3 }}>{profile.point} point</Text>
+                        <Text style={{ marginLeft: SIZES.base, color: COLORS.white, ...FONTS.body3 }}>{profile.point} Koin</Text>
                     </View>
                 </TouchableOpacity>
             </View>
@@ -310,7 +310,7 @@ const Home = ({ navigation }) => {
             <View style={{ flex: 1 }}>
                 {/* Header */}
                 <View style={{ paddingHorizontal: SIZES.padding, flexDirection: 'row', justifyContent: 'space-between' }}>
-                    <Text style={{ ...FONTS.h2, color: COLORS.white }}>Buku Saya</Text>
+                    <Text style={{ ...FONTS.heading, color: COLORS.white }}>Buku Saya</Text>
 
                     <TouchableOpacity
                         onPress={() => console.log("See More")}
@@ -343,11 +343,11 @@ const Home = ({ navigation }) => {
                 >
                     {
                         selectedCategory == item.id &&
-                        <Text style={{ ...FONTS.h2, color: COLORS.white }}>{item.categoryName}</Text>
+                        <Text style={{ ...FONTS.heading, color: COLORS.white }}>{item.categoryName}</Text>
                     }
                     {
                         selectedCategory != item.id &&
-                        <Text style={{ ...FONTS.h2, color: COLORS.lightGray }}>{item.categoryName}</Text>
+                        <Text style={{ ...FONTS.heading, color: COLORS.lightGray }}>{item.categoryName}</Text>
                     }
                 </TouchableOpacity>
             )
@@ -497,7 +497,7 @@ const Home = ({ navigation }) => {
     )
 
     return (
-        <SafeAreaView style={{ flex: 1, backgroundColor: COLORS.white }}>
+        <SafeAreaView style={{ flex: 1, backgroundColor: COLORS.black }}>
             {/* Header Section */}
             <View style={{ height: 200 }}>
                 {renderHeader(profile)}
